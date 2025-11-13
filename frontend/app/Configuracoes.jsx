@@ -52,8 +52,13 @@ const Configuracoes = React.memo(() => {
             <Text style={styles.titulo}>Configurações</Text>
 
             {/* Botões */}
+<<<<<<< Updated upstream
             <View style={styles.botoesContainer}>
               <TouchableOpacity style={styles.botao}>
+=======
+            <View style={styles.botoesContainer} >
+              <TouchableOpacity style={styles.botao} onPress={() => goTo('privacidade')}>
+>>>>>>> Stashed changes
                 <Text style={styles.textoBotao}>Privacidade</Text>
               </TouchableOpacity>
 
